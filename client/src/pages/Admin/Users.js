@@ -1,6 +1,6 @@
 import React from "react";
-import Layout from "../../components/Layout/Layout";
 import AdminMenu from "../../components/Layout/AdminMenu";
+import Layout from "./../../components/Layout/Layout";
 
 const Users = () => {
   return (
@@ -11,7 +11,7 @@ const Users = () => {
             <AdminMenu />
           </div>
           <div className="col-md-9">
-            <h1>Userss</h1>
+            <h1>All Users</h1>
           </div>
         </div>
       </div>
